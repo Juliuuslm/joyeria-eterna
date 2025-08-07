@@ -1,0 +1,173 @@
+{
+  "businessData": {
+    "name": "Joyería Eterna",
+    "owner": "María González Rodríguez",
+    "location": "Polanco, Ciudad de México",
+    "yearsInBusiness": 8,
+    "phone": "+52 55 1234 5678",
+    "email": "maria.gonzalez@joyeriaeterna.com",
+    "whatsapp": "525512345678",
+    "description": "Joyería artesanal especializada en piezas de alta gama que combinan diseño contemporáneo con técnicas tradicionales.",
+    "services": [
+      {
+        "name": "Anillos de Compromiso",
+        "icon": "💍",
+        "description": "Creamos el anillo perfecto para tu momento más especial, con diamantes cuidadosamente seleccionados.",
+        "features": [
+          "Diamantes certificados",
+          "Oro 18k y platino",
+          "Diseño personalizado",
+          "Garantía de por vida"
+        ],
+        "whatsappMessage": "¡Hola! Me interesa conocer más sobre sus anillos de compromiso. ¿Podrían ayudarme a crear la pieza perfecta?"
+      },
+      {
+        "name": "Joyería Personalizada",
+        "icon": "📎",
+        "description": "Servicio de diseño completamente personalizado según tus ideas y estilo.",
+        "features": [
+          "Consultoría de diseño",
+          "Bocetos digitales 3D",
+          "Materiales premium",
+          "Proceso colaborativo"
+        ],
+        "whatsappMessage": "¡Hola! Tengo una idea para una joya personalizada. ¿Podríamos agendar una consulta para discutir mi proyecto?"
+      },
+      {
+        "name": "Restauración",
+        "icon": "🔧",
+        "description": "Devolvemos la vida a tus joyas familiares preservando su valor sentimental.",
+        "features": [
+          "Evaluación gratuita",
+          "Técnicas tradicionales",
+          "Preservación histórica",
+          "Antes y después documentado"
+        ],
+        "whatsappMessage": "¡Hola! Tengo una joya familiar que necesita restauración. ¿Podrían evaluarla y darme un presupuesto?"
+      }
+    ],
+    "values": [
+      {
+        "title": "Excelencia Artesanal",
+        "icon": "✨",
+        "description": "Cada pieza creada con técnicas tradicionales garantizando calidad excepcional."
+      },
+      {
+        "title": "Exclusividad",
+        "icon": "🏆",
+        "description": "Trabajamos con oro, platino y diamantes certificados para piezas exclusivas."
+      },
+      {
+        "title": "Legado Familiar",
+        "icon": "❤️",
+        "description": "Creamos joyas que se transmiten de generación en generación."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ana Sofía Herrera",
+        "location": "Polanco, CDMX",
+        "service": "Anillo de Compromiso",
+        "rating": 5,
+        "quote": "El anillo que María diseñó superó todas mis expectativas. Desde la primera consulta, se notó su pasión y experiencia. El proceso fue transparente, profesional y el resultado... simplemente perfecto. Cada vez que miro mi anillo, recuerdo no solo el momento de la propuesta, sino también la experiencia maravillosa de crearlo.",
+        "date": "Octubre 2024",
+        "image": "👩‍🦰"
+      },
+      {
+        "name": "Carlos M.",
+        "service": "Joyería Personalizada",
+        "rating": 5,
+        "quote": "Excelente servicio y calidad excepcional."
+      },
+      {
+        "name": "Lucia R.",
+        "service": "Restauración",
+        "rating": 5,
+        "quote": "Devolvieron la vida a la joya de mi abuela."
+      },
+      {
+        "name": "Miguel A.",
+        "service": "Anillo de Compromiso",
+        "rating": 5,
+        "quote": "El proceso fue perfecto, el resultado extraordinario."
+      }
+    ],
+    "contact": {
+      "address": {
+        "street": "Av. Presidente Masaryk 123",
+        "neighborhood": "Polanco V Sección",
+        "city": "Ciudad de México",
+        "zipCode": "11560",
+        "full": "Av. Presidente Masaryk 123, Polanco V Sección, 11560 Ciudad de México, CDMX"
+      },
+      "hours": {
+        "weekdays": "Lunes - Viernes: 10:00 - 19:00",
+        "saturday": "Sábados: 10:00 - 17:00",
+        "sunday": "Domingos: Cerrado"
+      }
+    },
+    "stats": [
+      {
+        "number": 8,
+        "suffix": "",
+        "label": "Años de Experiencia",
+        "description": "Creando joyas excepcionales"
+      },
+      {
+        "number": 1000,
+        "suffix": "+",
+        "label": "Piezas Creadas",
+        "description": "Cada una única y especial"
+      },
+      {
+        "number": 500,
+        "suffix": "+",
+        "label": "Clientes Satisfechos",
+        "description": "Confianza y calidad garantizada"
+      },
+      {
+        "number": 100,
+        "suffix": "%",
+        "label": "Artesanal",
+        "description": "Hecho a mano con amor"
+      }
+    ],
+    "seo": {
+      "title": "Joyería Eterna - Piezas de Alta Gama | Polanco, CDMX",
+      "description": "Joyería artesanal de lujo en Polanco. Anillos de compromiso, diseño personalizado y restauración. 8 años creando legados que perduran.",
+      "keywords": ["joyería", "Polanco", "anillos compromiso", "oro", "diamantes", "CDMX", "joyería artesanal", "alta gama"],
+      "ogImage": "/og-image.jpg",
+      "canonical": "https://joyeriaeterna.com"
+    },
+    "navigation": [
+      { "name": "Inicio", "href": "#inicio" },
+      { "name": "Nosotros", "href": "#nosotros" },
+      { "name": "Servicios", "href": "#servicios" },
+      { "name": "Testimonios", "href": "#testimonios" },
+      { "name": "Contacto", "href": "#contacto" }
+    ],
+    "socialLinks": {
+      "facebook": "https://facebook.com/joyeriaeterna",
+      "instagram": "https://instagram.com/joyeriaeterna",
+      "whatsapp": "https://wa.me/525512345678"
+    },
+    "features": [
+      {
+        "title": "Oro y Platino Certificado",
+        "icon": "✓"
+      },
+      {
+        "title": "Diamantes Seleccionados",
+        "icon": "✓"
+      },
+      {
+        "title": "Diseño Personalizado",
+        "icon": "✓"
+      },
+      {
+        "title": "Garantía de por Vida",
+        "icon": "✓"
+      }
+    ]
+  }
+}
