@@ -30,6 +30,18 @@
     @apply border-2 border-luxury-gold text-luxury-gold hover:bg-luxury-gold hover:text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300;
   }
 
+  /* Premium header animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   .section-padding {
     @apply py-16 px-4 sm:px-6 lg:px-8;
   }
