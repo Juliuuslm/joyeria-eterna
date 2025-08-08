@@ -3,6 +3,15 @@
 import { useState } from 'react'
 import Button from '@/components/ui/Button'
 
+type Product = {
+  id: number
+  category: string
+  name: string
+  material: string
+  description: string
+  image: string
+}
+
 const categories = [
   { id: 'all', name: 'Todos', count: 16 },
   { id: 'anillos', name: 'Anillos de Compromiso', count: 4 },
@@ -148,19 +157,19 @@ const products = [
 
 export default function Catalog() {
   const [activeCategory, setActiveCategory] = useState('all')
-  const [selectedProduct, setSelectedProduct] = useState(null)
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null)
 
   const filteredProducts = activeCategory === 'all' 
     ? products 
     : products.filter(product => product.category === activeCategory)
 
-  const handleProductInquiry = (product) => {
+  const handleProductInquiry = (product: Product) => {
     const message = `¡Hola! Me interesa conocer más información sobre el ${product.name} en ${product.material}. ¿Podrían darme más detalles sobre disponibilidad y precio?`
     const url = `https://wa.me/525512345678?text=${encodeURIComponent(message)}`
     window.open(url, '_blank')
   }
 
-  const openModal = (product) => {
+  const openModal = (product: Product) => {
     setSelectedProduct(product)
   }
 
