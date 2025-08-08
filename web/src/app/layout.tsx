@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://joyeriaeterna.com'),
   title: 'Joyeria Eterna - Piezas de Alta Gama',
   description: 'Joyería artesanal de lujo en Polanco. Anillos de compromiso, diseño personalizado y restauración. 8 años creando legados que perduran.',
   keywords: 'joyería, Polanco, anillos compromiso, oro, diamantes, CDMX, joyería artesanal, alta gama',
