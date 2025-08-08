@@ -17,11 +17,11 @@ export default function Hero() {
   }
 
   return (
-    <section id="inicio" className="min-h-screen flex items-center relative overflow-hidden">
+    <section id="inicio" className="min-h-screen flex items-center relative overflow-hidden bg-gradient-to-br from-luxury-dark via-gray-900 to-luxury-dark">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://r-storage.novalabss.com/u/635943e3-93c9-4aac-9485-8445691a8a87.jpg"
+          src="/images/hero-background.jpg"
           alt="Joyería de lujo - Anillos y collares elegantes"
           className="w-full h-full object-cover"
           loading="eager"
