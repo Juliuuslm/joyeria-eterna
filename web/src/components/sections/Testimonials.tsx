@@ -5,28 +5,28 @@ const testimonial = {
   location: 'Polanco, CDMX',
   service: 'Anillo de Compromiso',
   rating: 5,
-  quote: 'María no solo diseñó un anillo, diseñó el momento perfecto. Tres meses después, aún recibo felicitaciones por "la propuesta más hermosa". Cada vez que veo su anillo, recuerdo el momento que cambió nuestras vidas para siempre.',
-  date: 'Octubre 2024',
-  image: '👩‍🦰' // Emoji as placeholder for image
+  quote: 'El proceso fue impecable desde la consulta inicial hasta la entrega. María entendió exactamente lo que buscábamos y creó algo completamente original. La calidad del diamante y el trabajo en oro 18k superaron nuestras expectativas.',
+  date: 'Septiembre 2024',
+  image: '👩‍🦰'
 }
 
 const additionalTestimonials = [
   {
-    name: 'Carlos M.',
-    service: 'Propuesta en Cancún',
-    quote: 'Para mi propuesta en Cancún necesitaba algo extraordinario. María creó una pieza que brilló más que el atardecer caribeño. Ella dijo sí antes de ver el anillo.',
+    name: 'Roberto C.',
+    service: 'Diseño Personalizado',
+    quote: 'Excelente atención al detalle. El modelado 3D nos permitió ver exactamente cómo quedaría antes de la creación. Calidad premium garantizada.',
     rating: 5
   },
   {
-    name: 'Lucia R.',
-    service: 'Restauración Premium',
-    quote: 'La joya de mi abuela parecía perdida para siempre. María no solo la restauró, devolvió las memorias que creímos perdidas.',
+    name: 'Elena M.',
+    service: 'Restauración',
+    quote: 'Restauraron el anillo de mi bisabuela respetando completamente el diseño original. Trabajo artesanal impecable, documentación profesional.',
     rating: 5
   },
   {
-    name: 'Miguel A.',
-    service: 'Anillo Exclusivo',
-    quote: 'Pieza única - Nunca la han repetido. El proceso fue perfecto, resultado extraordinario.',
+    name: 'Alejandro F.',
+    service: 'Anillo Compromiso',
+    quote: 'Proceso transparente, materiales certificados, entrega puntual. La política de no repetir diseños hace la diferencia.',
     rating: 5
   }
 ]
@@ -55,8 +55,8 @@ export default function Testimonials() {
             <span className="text-luxury-gold block">Nuestros Clientes</span>
           </h2>
           <p className="text-base md:text-xl text-luxury-dark-secondary max-w-3xl mx-auto leading-relaxed">
-            Más que clientes satisfechos, hemos creado historias de amor eternas. 
-            Cada testimonio refleja un momento único que ayudamos a eternizar en oro y diamantes.
+            Testimonios reales de clientes que confiaron en nuestro proceso de diseño exclusivo. 
+            Cada experiencia refleja nuestro compromiso con la excelencia artesanal.
           </p>
         </div>
 
@@ -128,8 +128,8 @@ export default function Testimonials() {
             {/* Clients Badge */}
             <div className="bg-luxury-dark/90 backdrop-blur-sm border-2 border-luxury-gold/60 rounded-full px-6 py-3 hover:scale-105 transition-all duration-300">
               <div className="text-center">
-                <div className="font-bold text-luxury-gold text-lg md:text-xl">500+</div>
-                <div className="text-xs text-gray-300 font-medium">Clientes Felices</div>
+                <div className="font-bold text-luxury-gold text-lg md:text-xl">150+</div>
+                <div className="text-xs text-gray-300 font-medium">Clientes Exclusivos</div>
               </div>
             </div>
             

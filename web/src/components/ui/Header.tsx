@@ -104,16 +104,6 @@ export default function Header() {
 
           {/* Premium CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 text-xs tracking-wider">
-              <div className={`w-2 h-2 rounded-full bg-green-400 animate-pulse ${
-                isScrolled ? 'opacity-70' : 'opacity-90'
-              }`}></div>
-              <span className={`font-medium ${
-                isScrolled ? 'text-luxury-dark/70' : 'text-white/80'
-              }`}>
-                2 CITAS EXCLUSIVAS
-              </span>
-            </div>
             <Button
               onClick={() => scrollToSection('#contacto')}
               size="sm"
@@ -124,18 +114,7 @@ export default function Header() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden flex items-center space-x-3">
-            {/* Mobile CTA indicator */}
-            <div className="flex items-center space-x-1">
-              <div className={`w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse ${
-                isScrolled ? 'opacity-60' : 'opacity-80'
-              }`}></div>
-              <span className={`text-xs font-medium ${
-                isScrolled ? 'text-luxury-dark/60' : 'text-white/70'
-              }`}>
-                DISPONIBLE
-              </span>
-            </div>
+          <div className="lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`p-3 rounded-full transition-all duration-500 hover:scale-110 active:scale-95 ${
@@ -209,7 +188,7 @@ export default function Header() {
                   </span>
                 </Button>
                 <p className="text-center text-white/60 text-sm mt-3 font-light">
-                  ✨ Solo 2 espacios disponibles este mes
+                  ✨ Agenda casi completa - espacios limitados
                 </p>
               </div>
             </div>

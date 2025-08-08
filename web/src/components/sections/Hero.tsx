@@ -49,7 +49,12 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-lg md:text-2xl mb-4 md:mb-6 text-luxury-pearl font-light animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            El Anillo Que Hará Que Diga Sí Para Siempre
+            Momentos Eternos, Joyas Únicas
+          </p>
+
+          {/* Unique Differentiator */}
+          <p className="text-sm md:text-base mb-4 md:mb-6 text-luxury-pearl/80 font-medium animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
+            La única joyería que nunca repite diseños
           </p>
 
           {/* Trust Badges Compact */}
@@ -68,7 +73,7 @@ export default function Hero() {
           {/* Exclusivity Badge */}
           <div className="flex justify-center mb-6 md:mb-8 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <div className="inline-flex items-center bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 md:px-6 py-2 md:py-3">
-              <span className="text-white font-medium text-sm md:text-base">🔥 Solo 2 citas exclusivas disponibles en enero</span>
+              <span className="text-white font-medium text-sm md:text-base">🔥 Agenda casi completa - 2 espacios restantes</span>
             </div>
           </div>
 

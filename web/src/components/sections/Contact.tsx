@@ -44,19 +44,19 @@ export default function Contact() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-luxury-dark mb-4 md:mb-6">
-            Su Momento Eterno
-            <span className="text-luxury-gold block">Nos Espera</span>
+            Reserve Su
+            <span className="text-luxury-gold block">Consulta Exclusiva</span>
           </h2>
           <p className="text-base md:text-xl text-luxury-dark-secondary max-w-3xl mx-auto leading-relaxed">
-            <strong className="text-luxury-gold">Este mes, solo tres parejas tendrán el privilegio de crear su legado con nosotros.</strong> 
-            Si su corazón ya eligió el momento, permítanos crear la joya que lo acompañe para siempre.
+            Atendemos por cita previa en nuestro atelier de Polanco. 
+            <strong className="text-luxury-gold">Consulta gratuita y sin compromiso.</strong>
           </p>
         </div>
 
         {/* Simplified Contact - Primary CTAs */}
         <div className="text-center mb-8 md:mb-12">
           <h3 className="font-serif text-2xl md:text-3xl font-bold text-luxury-dark mb-6 md:mb-8">
-            Reserve Su Cita Exclusiva Ahora
+            Contacto Directo
           </h3>
           
           {/* Primary Contact Actions */}
@@ -85,7 +85,7 @@ export default function Contact() {
           </div>
           
           <p className="text-luxury-dark-secondary mt-4 text-sm">
-            Respuesta inmediata • Consulta gratuita • Solo con cita previa
+            Respuesta en menos de 2 horas • Atención personalizada
           </p>
         </div>
 

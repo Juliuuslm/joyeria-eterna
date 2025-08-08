@@ -5,36 +5,36 @@ import Button from '@/components/ui/Button'
 const services = [
   {
     name: 'Anillos de Compromiso',
-    description: 'Creamos el anillo que garantizará un "sí" inolvidable. Cada diamante es seleccionado por nuestros expertos y cada diseño es único - nunca repetimos una pieza. El resultado: el momento más importante de sus vidas, eternizado en oro.',
+    description: 'Diseños exclusivos que nunca se repiten. Diamantes certificados, oro 18k, proceso personalizado completo.',
     features: [
-      'Diamantes certificados',
-      'Oro 18k y platino',
-      'Diseño personalizado',
-      'Garantía de por vida'
+      'Diseño irrepetible garantizado',
+      'Diamantes GIA certificados',
+      'Solo materiales premium',
+      'Garantía de exclusividad'
     ],
-    whatsappMessage: 'Buenos días. Estamos buscando crear el anillo de compromiso perfecto para nuestro momento especial. ¿Podrían ayudarnos a diseñar una pieza única que capture nuestro amor?'
+    whatsappMessage: 'Hola, buscamos crear un anillo de compromiso único. ¿Podrían ayudarnos con el proceso de diseño personalizado?'
   },
   {
     name: 'Joyería Personalizada',
-    description: 'Usted tiene una historia que merece ser contada en oro. Nuestro proceso de diseño personalizado convierte sus memorias más preciadas en una joya que habla sin palabras de quién es y a quién ama.',
+    description: 'Piezas completamente originales basadas en su historia personal. Proceso colaborativo de diseño desde boceto hasta entrega.',
     features: [
-      'Consultoría de diseño',
-      'Bocetos digitales 3D',
-      'Materiales premium',
-      'Proceso colaborativo'
+      'Consulta de diseño especializada',
+      'Modelado 3D previo',
+      'Materiales de alta gama',
+      'Exclusividad garantizada'
     ],
-    whatsappMessage: 'Buenos días. Tengo una historia especial que me gustaría convertir en una joya única. ¿Podríamos agendar una consulta para transformar mis memorias en oro?'
+    whatsappMessage: 'Me interesa crear una joya personalizada única. ¿Podríamos agendar una consulta para discutir mi proyecto?'
   },
   {
-    name: 'Restauración',
-    description: 'Devolvemos la vida a las joyas familiares más preciadas. Utilizamos técnicas especializadas para restaurar no solo su belleza original, sino el valor sentimental que creía perdido. Cada pieza restaurada viene con documentación completa del proceso.',
+    name: 'Restauración Premium',
+    description: 'Restauración de joyas familiares con técnicas tradicionales. Evaluación gratuita y documentación completa del proceso.',
     features: [
-      'Evaluación gratuita',
-      'Técnicas tradicionales',
-      'Preservación histórica',
-      'Antes y después documentado'
+      'Evaluación sin costo',
+      'Técnicas artesanales tradicionales',
+      'Preservación de valor histórico',
+      'Documentación fotográfica completa'
     ],
-    whatsappMessage: 'Buenos días. Tengo una joya familiar con mucho valor sentimental que necesita restauración. ¿Podrían ayudarme a devolver la vida a estas memorias familiares?'
+    whatsappMessage: 'Tengo una joya familiar que requiere restauración especializada. ¿Podrían evaluarla sin costo?'
   }
 ]
 
@@ -54,9 +54,8 @@ export default function Services() {
             <span className="text-luxury-gold block">Servicios</span>
           </h2>
           <p className="text-base md:text-xl text-luxury-dark-secondary max-w-3xl mx-auto leading-relaxed">
-            Cada servicio que ofrecemos nace de una promesa: eternizar los momentos que importan. 
-            Desde crear el anillo que sellará su compromiso hasta devolver la vida a las joyas que 
-            guardan la historia de su familia.
+            Tres servicios especializados que garantizan exclusividad absoluta. 
+            Cada proyecto es único, cada resultado irrepetible.
           </p>
         </div>
 
@@ -113,11 +112,11 @@ export default function Services() {
         <div className="text-center mt-16">
           <div className="relative bg-luxury-dark rounded-2xl p-8 text-white group cursor-pointer overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_16px_32px_rgba(0,0,0,0.25)] border border-luxury-gold/20 hover:border-luxury-gold/40 before:absolute before:inset-0 before:bg-gradient-to-br before:from-luxury-gold/0 before:to-luxury-gold/5 before:opacity-0 before:transition-all before:duration-500 hover:before:opacity-100">
             <h3 className="font-serif text-xl md:text-2xl font-bold mb-4 relative z-10 group-hover:text-luxury-gold transition-colors duration-300">
-              ¿No encuentras lo que buscas?
+              Proyecto Especial
             </h3>
             <p className="text-gray-200 mb-6 max-w-2xl mx-auto relative z-10">
-              Cada cliente es único y cada proyecto especial. Contáctanos para 
-              discutir tu idea y crear algo verdaderamente extraordinario.
+              ¿Tiene una visión única? Creamos piezas completamente originales 
+              según sus especificaciones exactas.
             </p>
             <Button
               onClick={() => handleServiceInquiry('¡Hola! Tengo un proyecto especial en mente y me gustaría discutir las posibilidades con ustedes. ¿Podemos agendar una consulta?')}

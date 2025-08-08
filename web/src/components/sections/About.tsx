@@ -66,25 +66,25 @@ const stats = [
     number: 8,
     suffix: '',
     label: 'Años de Experiencia',
-    description: 'Creando joyas excepcionales'
+    description: 'Perfeccionando técnicas artesanales'
   },
   {
-    number: 1000,
+    number: 200,
     suffix: '+',
-    label: 'Piezas Creadas',
-    description: 'Cada una única y especial'
+    label: 'Diseños Únicos',
+    description: 'Nunca repetidos, siempre exclusivos'
   },
   {
-    number: 500,
+    number: 150,
     suffix: '+',
-    label: 'Clientes Satisfechos',
-    description: 'Confianza y calidad garantizada'
+    label: 'Clientes Exclusivos',
+    description: 'Historias únicas, joyas únicas'
   },
   {
     number: 100,
     suffix: '%',
     label: 'Artesanal',
-    description: 'Hecho a mano con amor'
+    description: 'Técnica tradicional, diseño contemporáneo'
   }
 ]
 
@@ -94,13 +94,13 @@ export default function About() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="font-serif text-3xl md:text-5xl font-bold text-luxury-dark mb-4 md:mb-6">
-            Ocho Años Convirtiendo
-            <span className="text-luxury-gold block">Lágrimas de Felicidad en Diamantes</span>
+            Ocho Años Perfeccionando
+            <span className="text-luxury-gold block">el Arte de lo Único</span>
           </h2>
           <p className="text-base md:text-xl text-luxury-dark-secondary max-w-3xl mx-auto leading-relaxed">
-            En el prestigioso Polanco, hemos sido testigos de miles de momentos eternos. Desde la primera 
-            lágrima de felicidad hasta el "sí acepto" que cambia vidas, cada joya que creamos captura la 
-            esencia de los momentos que importan para siempre.
+            Ubicados en Polanco, nos especializamos en crear piezas completamente únicas. 
+            Cada diseño nace de una historia personal y nunca se repite, garantizando 
+            que su joya sea tan exclusiva como el momento que representa.
           </p>
         </div>
 
@@ -112,20 +112,18 @@ export default function About() {
                 Nuestra Historia
               </h3>
               <p className="text-sm md:text-base text-gray-200 mb-3 md:mb-4 leading-relaxed">
-                En 2017, María González fundó Joyería Eterna con una visión clara: crear piezas 
-                que capturaran los momentos más importantes de la vida. Con formación en gemología 
-                certificada y 8 años de experiencia, estableció su taller en el prestigioso Polanco.
+                Fundada en 2017 por María González, gemóloga certificada con especialización 
+                en diseño de alta joyería. Establecimos nuestro atelier en Polanco para 
+                atender clientela que valora la exclusividad absoluta.
               </p>
               <p className="text-sm md:text-base text-gray-200 mb-3 md:mb-4 leading-relaxed">
-                Desde entonces, hemos trabajado con las mejores materias primas: 
-                oro de 18k, platino y diamantes cuidadosamente seleccionados, 
-                combinando técnicas tradicionales con diseños contemporáneos.
+                Trabajamos exclusivamente con oro 18k, platino y diamantes certificados. 
+                Cada pieza se diseña desde cero y nunca se reproduce, garantizando 
+                exclusividad total para nuestros clientes.
               </p>
               <p className="text-sm md:text-base text-gray-200 leading-relaxed">
-                Hoy, cada anillo, collar o brazalete que sale de nuestro taller lleva consigo 
-                la promesa de eternizar un momento irrepetible. Porque sabemos que tu historia 
-                merece una joya tan única como el amor que representa. 
-                <strong className="text-luxury-gold">Cada pieza es única - Nunca repetimos diseños.</strong>
+                <strong className="text-luxury-gold">Política de exclusividad:</strong> Una vez creada 
+                su joya, el diseño se archiva permanentemente. Su pieza será única en el mundo.
               </p>
             </div>
           </div>

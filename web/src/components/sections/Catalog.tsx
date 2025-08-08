@@ -187,8 +187,8 @@ export default function Catalog() {
             <span className="text-luxury-gold block">Catálogo</span>
           </h2>
           <p className="text-lg md:text-xl text-luxury-dark-secondary max-w-3xl mx-auto leading-relaxed">
-            Descubre nuestra colección de joyas artesanales de alta gama. 
-            Cada pieza está cuidadosamente elaborada con materiales premium y técnicas tradicionales.
+            Piezas de referencia que demuestran nuestro nivel artesanal. 
+            Cada diseño mostrado es único y nunca se reproduce.
           </p>
         </div>
 
@@ -256,15 +256,15 @@ export default function Catalog() {
                 </p>
                 
                 <div className="flex justify-between items-center">
-                  <span className="text-white font-semibold">
-                    Consultar precio
+                  <span className="text-luxury-gold font-semibold text-sm">
+                    Pieza Exclusiva
                   </span>
                   <Button
                     onClick={() => handleProductInquiry(product)}
                     size="sm"
                     className="text-sm"
                   >
-                    Solicitar Info
+                    Consultar
                   </Button>
                 </div>
               </div>
@@ -349,11 +349,11 @@ export default function Catalog() {
         <div className="text-center mt-16">
           <div className="bg-luxury-dark rounded-2xl p-8 text-white">
             <h3 className="font-serif text-xl md:text-2xl font-bold mb-4">
-              ¿No encuentras lo que buscas?
+              Diseño Completamente Original
             </h3>
             <p className="text-gray-200 mb-6 max-w-2xl mx-auto">
-              Creamos piezas completamente personalizadas según tus ideas y estilo. 
-              Agenda una consulta gratuita para discutir tu proyecto especial.
+              Estas piezas son referencias de nuestro trabajo. Creamos su diseño 
+              único basado en sus especificaciones exactas.
             </p>
             <Button
               onClick={() => {
