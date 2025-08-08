@@ -5,8 +5,8 @@ import Button from './Button'
 
 const navigation = [
   { name: 'Nosotros', href: '#nosotros' },
-  { name: 'Catálogo', href: '#catalogo' },
   { name: 'Servicios', href: '#servicios' },
+  { name: 'Catálogo', href: '#catalogo' },
   { name: 'Contacto', href: '#contacto' },
 ]
 
