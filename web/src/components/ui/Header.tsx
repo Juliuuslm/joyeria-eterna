@@ -41,7 +41,7 @@ export default function Header() {
     >
       <div className="container-custom">
         <div className={`flex items-center justify-between px-4 transition-all duration-500 ${
-          isScrolled ? 'h-16' : 'h-20'
+          isScrolled ? 'h-14' : 'h-16'
         }`}>
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -54,7 +54,7 @@ export default function Header() {
                   src="/logo.png" 
                   alt="Joyería Eterna Logo" 
                   className={`transition-all duration-500 group-hover:brightness-110 ${
-                    isScrolled ? 'h-8 w-auto' : 'h-10 w-auto'
+                    isScrolled ? 'h-6 w-auto' : 'h-8 w-auto'
                   }`}
                 />
                 <div className="absolute inset-0 bg-luxury-gold/20 rounded-full scale-0 group-hover:scale-110 transition-transform duration-500 blur-md"></div>
@@ -67,7 +67,7 @@ export default function Header() {
                 }`}>
                   Joyería Eterna
                 </span>
-                <span className={`font-light text-xs tracking-wider transition-all duration-500 ${
+                <span className={`hidden sm:block font-light text-xs tracking-wider transition-all duration-500 ${
                   isScrolled 
                     ? 'text-luxury-dark/60 group-hover:text-luxury-gold/80' 
                     : 'text-white/70 group-hover:text-luxury-gold/90'
@@ -103,7 +103,7 @@ export default function Header() {
           </nav>
 
           {/* Premium CTA Button */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             <Button
               onClick={() => scrollToSection('#contacto')}
               size="sm"
@@ -114,7 +114,7 @@ export default function Header() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden">
+          <div className="md:block lg:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`p-3 rounded-full transition-all duration-500 hover:scale-110 active:scale-95 ${
@@ -153,7 +153,7 @@ export default function Header() {
 
         {/* Premium Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-luxury-dark/98 backdrop-blur-xl border-t border-luxury-gold/30">
+          <div className="lg:hidden bg-luxury-dark/40 backdrop-blur-xl">
             <div className="px-4 pt-4 pb-6 space-y-2">
               {navigation.map((item, index) => (
                 <button
@@ -187,9 +187,6 @@ export default function Header() {
                     </svg>
                   </span>
                 </Button>
-                <p className="text-center text-white/60 text-sm mt-3 font-light">
-                  ✨ Agenda casi completa - espacios limitados
-                </p>
               </div>
             </div>
           </div>
