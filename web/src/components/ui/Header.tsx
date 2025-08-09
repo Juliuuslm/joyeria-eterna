@@ -153,7 +153,7 @@ export default function Header() {
 
         {/* Premium Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-luxury-dark/40 backdrop-blur-xl">
+          <div className="lg:hidden bg-luxury-dark/80 backdrop-blur-xl">
             <div className="px-4 pt-4 pb-6 space-y-2">
               {navigation.map((item, index) => (
                 <button
